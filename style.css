@@ -1,0 +1,13 @@
+.main_title{
+    text-align:center;
+}
+.octagon {
+    margin: 0 auto;
+    display: block; 
+    width: 250px;
+    height: 250px;
+    background: #ac60ec;
+    position: relative;
+    border-radius: 93px;
+}
+ 
