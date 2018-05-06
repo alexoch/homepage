@@ -1,3 +1,19 @@
+body{margin: 0;}
+main{
+    float: left;
+    width: 80%;
+    min-height: 100%;
+    display: inline-block;
+}
+
+aside{
+    background: black;
+    color:#fdfd96;
+    display: inline-block;
+    width: 20%;
+    float: right;
+    min-height: 100%;
+}
 .main_title{
     text-align:center;
 }
@@ -8,6 +24,7 @@
     height: 250px;
     background: #ac60ec;
     position: relative;
-    border-radius: 93px;
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
  
