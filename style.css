@@ -52,3 +52,33 @@ aside{
     list-style: none;
     line-height: 1.5;
 }
+.contacts:before{
+    content: "";
+    position: absolute;
+    height: calc(100% - 52px);
+    width: 1px;
+    background: #d1d1d1;
+    bottom: 0;
+    left: 8px;
+}
+.contacts ul:before{
+    content: "";
+    left: 0;
+    top: 4.5PX;
+    border-radius: 50%;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background: #fff;
+    border: 2px solid #362cb2;
+}
+
+title{
+    display: block;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.bio p{
+    width: 80%;
+    margin-left:10%;
+}
