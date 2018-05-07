@@ -56,14 +56,17 @@ aside{
 }
 
 
-title{
-    display: block;
-    margin-left: 10%;
+.experience header,.education header, .bio header, .skills header,.albums header{
+   display: block;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 18px;
-
 }
+.bio header, .skills header,.albums header{
+    margin-left: 10%;
+}
+
 .bio p{
     width: 80%;
     margin-left:10%;
