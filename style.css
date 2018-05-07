@@ -125,4 +125,20 @@ title{
 
 @media screen and (max-width:600px){
     .ex_item:before,.ex_head:before{display: none}
+    .resume{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    height: 2011px;
+    float: none;
+    }
+    aside{
+            display: block;
+    float: none;
+    width: 100%;
+    }
+    .contacts, .experience, .education{
+        margin-left: 10px; 
+    }
 }
