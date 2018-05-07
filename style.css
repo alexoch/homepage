@@ -5,10 +5,12 @@ main{
     min-height: 100%;
     display: inline-block;
 }
-
+a{
+    color:#2694d1;
+}
 aside{
     background: black;
-    color:#fdfd96;
+    color:#fbd905;
     display: inline-block;
     width: 30%;
     float: right;
@@ -41,7 +43,7 @@ aside{
     margin: 50px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.contacts,.experience{
+.contacts,.experience,.education{
     width: 90%;
     display: block;
     margin-left:50px; 
@@ -58,6 +60,9 @@ title{
     display: block;
     margin-left: 10%;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
 }
 .bio p{
     width: 80%;
@@ -67,7 +72,7 @@ title{
 .ex_dsc{
     margin: 20px 0;
 }
-.experience title{
+.experience title,.education title{
     font-weight: bold;
     font-size: 18px;
     margin-left: 0;
@@ -76,7 +81,7 @@ title{
 .ex_item:before{
     content: "";
     position: absolute;
-    height:  150px;
+    height:  200px;
     width: 1px;
     background: #d1d1d1;
     
@@ -90,5 +95,30 @@ title{
     height: 16px;
     width: 16px;
     background: #fff;
-    border: 2px solid #362cb2;
+    border: 2px solid #2694d1;
+}
+.education{
+    margin-top:120px; 
+}
+.skills ul {
+    list-style: none;
+}
+.skills-list .progress .percentage {
+    background-color: #fbd905;    height: 5px;
+}
+.skills-list .progress {
+    border: 1px solid #fbd905;
+    width: 200px;
+    height: 5px;
+}
+.skills-list h4 {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+}
+.albums img{
+    width: 200px;
+    margin: 20px auto;
+    display: block;
 }
