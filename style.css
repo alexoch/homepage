@@ -36,12 +36,12 @@ aside{
 .resume{
 
     width: 1200px;
-    height: 400px;
+    height: 1500px;
     display: block;
     margin: 50px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.contacts{
+.contacts,.experience{
     width: 90%;
     display: block;
     margin-left:50px; 
@@ -52,26 +52,7 @@ aside{
     list-style: none;
     line-height: 1.5;
 }
-.contacts:before{
-    content: "";
-    position: absolute;
-    height: calc(100% - 52px);
-    width: 1px;
-    background: #d1d1d1;
-    bottom: 0;
-    left: 8px;
-}
-.contacts ul:before{
-    content: "";
-    left: 0;
-    top: 4.5PX;
-    border-radius: 50%;
-    position: absolute;
-    height: 16px;
-    width: 16px;
-    background: #fff;
-    border: 2px solid #362cb2;
-}
+
 
 title{
     display: block;
@@ -81,4 +62,33 @@ title{
 .bio p{
     width: 80%;
     margin-left:10%;
+}
+
+.ex_dsc{
+    margin: 20px 0;
+}
+.experience title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.ex_item:before{
+    content: "";
+    position: absolute;
+    height:  150px;
+    width: 1px;
+    background: #d1d1d1;
+    
+    left: 100px;
+}
+.ex_head:before{
+    content: "";
+    left: 90px;
+    border-radius: 50%;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background: #fff;
+    border: 2px solid #362cb2;
 }
