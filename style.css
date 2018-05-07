@@ -13,7 +13,7 @@ aside{
     width: 30%;
     float: right;
     min-height: 100%;
-}
+}   
 .main_title{
     font-size:32px;
     padding-left: 50px; 
@@ -21,6 +21,7 @@ aside{
 .sub_title{
     font-size:24px;
     padding-left: 50px;
+    font-weight: normal;
 }
 .octagon {
     margin: 25px auto 0;
@@ -39,4 +40,15 @@ aside{
     display: block;
     margin: 50px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contacts{
+    width: 90%;
+    display: block;
+    margin-left:50px; 
+    border-top: 1px solid #80808070;
+    
+}
+.contacts ul{
+    list-style: none;
+    line-height: 1.5;
 }
