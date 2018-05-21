@@ -69,6 +69,7 @@ aside{
 
 .bio p{
     width: 80%;
+    text-align: justify;
     margin-left:10%;
 }
 
@@ -100,9 +101,10 @@ aside{
     background: #fff;
     border: 2px solid #2694d1;
 }
-.education{
+.education,.skills,.bio{
     margin-top:120px; 
 }
+
 .skills ul {
     list-style: none;
 }
@@ -111,7 +113,7 @@ aside{
 }
 .skills-list .progress {
     border: 1px solid #fbd905;
-    width: 200px;
+    width: 250px;
     height: 5px;
 }
 .skills-list h4 {
@@ -125,7 +127,6 @@ aside{
     margin: 20px auto;
     display: block;
 }
-
 @media screen and (max-width:600px){
     .ex_item:before,.ex_head:before{display: none}
     .resume{
